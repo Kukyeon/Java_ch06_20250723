@@ -30,4 +30,8 @@ public class Rectangle {
 	public int rectArea(int width) {
 		return width * this.height;
 	}
+	
+	public double rectArea(double width) {
+		return width * this.height;
+	}
 }

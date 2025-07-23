@@ -39,10 +39,12 @@ public class MainClass {
 		int area1 = rec1.rectArea();
 		int area2 = rec1.rectArea(200);
 		int area3 = rec1.rectArea(30, 40);// 오버로딩을 통해 여러가지 값을 가져올수있음
+		double area4 = rec1.rectArea(50.0);
 		
 		System.out.println(area1); // 초기값으로 계산
 		System.out.println(area2); // w만 200으로 넣어서 h는 기본값으로 계산
 		System.out.println(area3); // w,h 둘다 새로운값을 넣어서 계산
+		System.out.println(area4); // 더블도가능
 	}
 
 }
