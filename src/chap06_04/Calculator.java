@@ -21,22 +21,22 @@ public class Calculator {
 		for(int num:numbers) {
 			total = total + num;
 			
-		}  return total;
-		
-//		public int total2(int ...numbers) {
-//			int total = 0;
-//			for(int num:numbers) {
-//				total = total + num;
-//		} return total;
-		 //다른방법
-	
-	
-		
-		
-		
+		}  	
+		 return total;	
+			
 	} 
 		
+	public int total2(int ...numbers) {
+	int total = 0;
+	for(int num:numbers) {
+		total = total + num;
+   } 	return total;  //다른방법
+   //System.out.println();->return문 다음에 나오는 코드는 실행되지않음
+	
+	
+	
 	}
 	
+}
 		
 
