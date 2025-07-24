@@ -10,18 +10,18 @@ public class MainClass {
 		//1 책 이름 가격 출력 
 		
 		Book book1 = new Book(16000, "해리포터");
-		
 		book1.printInfo();
 				
 		
 		System.out.println("=============================");
+		
 		//2 StringTool
 		
-		
 		StringTool tool = new StringTool();
-		 tool.printLength("밥먹을시간이다");
-		   	
-		 System.out.println("=============================");
+		tool.printLength("밥먹을시간이다");
+		   
+		
+		System.out.println("=============================");
 		 
 		 //3 getAverage
 		 
@@ -29,16 +29,16 @@ public class MainClass {
 		 int[] yam = {1,2,3,4,5};
 		 averageCalculator.getAverage(yam);
 
-		 System.out.println("=============================");
 		 
+		 System.out.println("=============================");
 		 
 		 //4 BMI
 		 
 		 Bmi bmi = new Bmi();
 		 bmi.bmiCalulator(88.0, 1.85);
 		 
-		 System.out.println("=============================");
 		 
+		 System.out.println("=============================");
 		 
 		 //5 Rectangle
 		 
